@@ -70,7 +70,4 @@ final class DragonService: DragonService_Protocol {
         let spellDetail = try self.jsonDecoder.decode(DragonSpellDetail.self, from: data)
         return spellDetail
     }
-    
-    
-    
 }
